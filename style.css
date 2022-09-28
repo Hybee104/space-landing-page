@@ -1,0 +1,244 @@
+
+    .home{
+    background-image: url("background-home-desktop.jpg");
+   }
+
+   .moon{
+    background-image: url("background-destination-desktop.jpg");
+   }
+
+   .crew{
+    background: url("background-crew-desktop.jpg") no-repeat center center/cover;
+   }
+
+   .bg-tec{
+    background: url("background-technology-desktop.jpg") no-repeat center center/cover;
+   }
+
+  .logo{
+    float: left;
+    margin: 3px;
+   }
+
+   .list1{
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+   }
+
+   .list2{
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+   }
+
+   nav{
+     float: right; 
+     background-color: darkslategray;
+     opacity: 0.5;
+     padding-right: 40px;
+     text-align: right;
+     margin: 10px;
+     
+   }
+
+   a{
+   text-decoration: none;
+   }
+
+    li{
+    list-style-type: none;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+   }
+
+   li:hover{
+    border-bottom: 1px solid grey;
+   
+   }
+
+   nav ul li{
+    display: inline-block;
+    font-weight: 600px;
+  }
+       .toggle{
+        cursor: pointer;
+        width: 30px;
+        height: 3px;
+        display: inline-block;
+        float: right;
+        padding: 15px;
+        display: none;
+        margin-right: 25px;
+       }
+
+       .toggle span{
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        float: right;
+        margin-bottom: 8px;
+       }
+
+       @media  (max-width: 700px) {
+        .toggle{
+          display: block;
+        }
+
+        *
+        .home{
+          background: url("background-home-mobile.jpg") no-repeat center center/cover;
+         }
+
+        nav{
+          display: none;
+          width: 100%;
+          border-top: 1px solid black;
+          padding-top: 20px;
+          margin-top: 10%;
+          transition: .5s;
+          
+        }
+
+        li{
+        cursor: pointer;
+       }
+
+        nav ul li{
+          padding: 15px 0px;
+          width: 100%;
+          
+        }
+
+        nav.show{
+          display: block;
+
+        }
+
+      
+       }
+
+
+       .paragraph{
+        color: white;
+        margin-left: 100px;
+        font-size: 1rem;
+       }
+
+       .heading-space{
+        color: white;
+        font-size:5rem;
+        margin-left: 100px;
+       }
+       
+
+       .heading5{
+        color: white;
+        font-size: 16px;
+        margin-left: 90px;
+        margin-right: 20px;
+       }
+
+
+       .footer{
+        color: black;
+        text-align: center;
+        background-color: white;
+        margin-left: 150px;
+       
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+        /* border-radius: 150px; */
+       }
+      
+       /* mars */
+
+
+       #mars{
+        margin-left: 50px;
+       }
+
+        .ordered-list{
+         display: flex;
+         color: white;
+       }
+
+
+       .moon-list{
+        border-bottom: 3px solid white;
+        margin-right: 0px;
+       }
+
+       .moon-heading{
+        margin-left: 90px;
+        font-size: 5rem;
+        color: white;
+       }
+
+      .moon-footer{
+        display: flex;
+        margin-left: 90px;
+        font-size: 1.5rem;
+        color: white;
+        justify-content: space-between;
+      }
+
+      .moon-paragraph{
+        margin-left: 90px;
+        margin-right: 20px;
+        color: white;
+      }
+
+      .border{
+        border: 1px solid white;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      .crew-space{
+        color: white;
+        font-size: 2rem;
+        margin-left: 90px;
+      }
+
+      .commander{
+        margin-left: 95px;
+      }
+
+      .tec{
+        display: flex;
+
+      }
+
+      .list-number1{
+        border: 1px solid white;
+        border-radius: 15px;
+        text-align: center;
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
+
+     .list-number2{
+      border: 1px solid white;
+      border-radius: 15px;
+      text-align: center;
+      padding-left: 19px;
+      padding-right: 19px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     }
+
+     .list-number3{
+      border: 1px solid white;
+      border-radius: 15px;
+      text-align: center;
+      padding-left: 19px;
+      padding-right: 19px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     }
